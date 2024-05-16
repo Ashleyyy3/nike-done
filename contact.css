@@ -1,0 +1,137 @@
+
+
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    line-height: 1.1;
+  }
+  
+  header {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 30px;
+    margin-left: 20px;
+  }
+  
+  .navlist {
+    list-style: none;
+    display: flex;
+  }
+  
+  .navlist li {
+    margin-right: 20px;
+  }
+  
+  .navlist li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+  }
+  
+  .navlist li a:hover {
+    color: #ccc;
+  }
+  
+  .header-icons {
+    margin-right: 20px;
+  }
+  
+  /* Contact form styles */
+  .cont {
+    margin: 50px auto;
+    width: 60%;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cont h2 {
+    margin-bottom: 20px;
+  }
+  
+  .input-field {
+    margin-bottom: 20px;
+  }
+  
+  .field input, .field textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .field textarea {
+    resize: vertical;
+  }
+.field .error-txt{
+    font-size: 14px;
+    color: red;
+    text-align: left;
+    padding: 8px;
+    margin: -5px 0 10px;
+    display: none;
+}
+
+
+
+
+  
+  button[type="submit"] {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #333;
+  }
+  
+  form .textarea-field .item{
+    resize: none;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* https://www.youtube.com/watch?v=IxziwuuaS3c&t=220s  13:22*/
